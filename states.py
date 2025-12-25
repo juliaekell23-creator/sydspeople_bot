@@ -11,3 +11,6 @@ class OrderForm(StatesGroup):
     grind = State()
     city = State()
     comment = State()
+
+    class FaqForm(StatesGroup):
+    question = State()
